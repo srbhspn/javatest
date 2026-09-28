@@ -20,10 +20,6 @@ pipeline {
             }
         }
         
-    }
-    post{
-        always {
-             mail bcc: '', body: 'Hello', cc: '', from: '', replyTo: '', subject: 'Status', to: 'srbh.spn@gmail.com'
-        }
+   
     }
 }
